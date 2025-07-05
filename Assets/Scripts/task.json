@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "task": "Enflasyon yüksek. Ne yapacaksın?",
+    "options": [
+      { "id": "A", "text": "Vergileri artır", "happiness": -30, "people": 0, "money": 20, "science": 0, "soldier": 0, "result": "Halk bunu beğenmedi. Tepkiler arttı." },
+      { "id": "B", "text": "Para bas", "happiness": -10, "people": 0, "money": 30, "science": 0, "soldier": 0, "result": "Kısa vadede rahatlama oldu ama güven azaldı." },
+      { "id": "C", "text": "Doğal kaynakları sat", "happiness": 0, "people": 0, "money": 10, "science": -20, "soldier": 0, "result": "Ek gelir sağlandı ama bilim çevreleri tepki gösterdi." }
+    ]
+  },
+  {
+    "id": 2,
+    "task": "İsyan başladı. Ne yapacaksın?",
+    "options": [
+      { "id": "A", "text": "Asker gönder", "happiness": -40, "people": -10, "money": -20, "science": 0, "soldier": 10, "result": "İsyan bastırıldı ama halk öfkelendi." },
+      { "id": "B", "text": "Müzakere et", "happiness": 20, "people": 0, "money": -10, "science": 0, "soldier": 0, "result": "Barış sağlandı, halk güven duydu." },
+      { "id": "C", "text": "Umursama", "happiness": -60, "people": -30, "money": 0, "science": 0, "soldier": 0, "result": "İsyan büyüdü. Halk güvenini kaybetti." }
+    ]
+  },
+  {
+    "id": 3,
+    "task": "Nüfus hızla artıyor. Ne yapacaksın?",
+    "options": [
+      { "id": "A", "text": "Yeni şehirler kur", "happiness": 10, "people": 30, "money": -40, "science": 0, "soldier": 0, "result": "Nüfus yerleştirildi ama bütçe zorlandı." },
+      { "id": "B", "text": "Göçü sınırla", "happiness": -20, "people": -30, "money": 0, "science": 0, "soldier": 0, "result": "Tepkiler geldi. Nüfus politikası tartışıldı." },
+      { "id": "C", "text": "Sosyal yardım artır", "happiness": 30, "people": 20, "money": -20, "science": 0, "soldier": 0, "result": "Halk memnun ama ekonomi zorlandı." }
+    ]
+  },
+  {
+    "id": 4,
+    "task": "Bilim insanları yeni teknoloji öneriyor.",
+    "options": [
+      { "id": "A", "text": "Hemen yatırım yap", "happiness": 0, "people": 0, "money": -50, "science": 40, "soldier": 0, "result": "Bilim gelişti ama kasada açık oluştu." },
+      { "id": "B", "text": "Gözlemle ve bekle", "happiness": 0, "people": 0, "money": 0, "science": 0, "soldier": 0, "result": "Risk alınmadı, durum sabit kaldı." },
+      { "id": "C", "text": "Reddet", "happiness": -10, "people": 0, "money": 0, "science": -20, "soldier": 0, "result": "Bilim insanları tepki gösterdi." }
+    ]
+  },
+  {
+    "id": 5,
+    "task": "İklim krizi uyarısı alındı.",
+    "options": [
+      { "id": "A", "text": "Çevre dostu yatırımlar yap", "happiness": 10, "people": 0, "money": -30, "science": 20, "soldier": 0, "result": "Halk çevreci adımları takdir etti." },
+      { "id": "B", "text": "Umursama", "happiness": -30, "people": 0, "money": 0, "science": -10, "soldier": 0, "result": "Doğa tahrip oldu, halk kızgın." },
+      { "id": "C", "text": "Karbon vergisi koy", "happiness": -20, "people": 0, "money": 15, "science": 10, "soldier": 0, "result": "Ek gelir sağlandı ama sanayi şikayetçi." }
+    ]
+  },
+  {
+    "id": 6,
+    "task": "Yapay zeka iş gücünü tehdit ediyor.",
+    "options": [
+      { "id": "A", "text": "Yapay zekayı yasakla", "happiness": 10, "people": 0, "money": -10, "science": -30, "soldier": 0, "result": "İşçiler memnun, teknoloji sektörü öfkeli." },
+      { "id": "B", "text": "İnsanlara yeni işler öğret", "happiness": 30, "people": 0, "money": -20, "science": 10, "soldier": 0, "result": "Toplum dönüşüme hazır hale geldi." },
+      { "id": "C", "text": "Umursama", "happiness": -20, "people": 0, "money": 0, "science": 0, "soldier": 0, "result": "İşsizlik arttı, halk huzursuz." }
+    ]
+  },
+  {
+    "id": 7,
+    "task": "Ordu bütçesi tartışılıyor.",
+    "options": [
+      { "id": "A", "text": "Bütçeyi artır", "happiness": -10, "people": 0, "money": -30, "science": 0, "soldier": 30, "result": "Ordu güçlendi ama halk tepkili." },
+      { "id": "B", "text": "Mevcut haliyle bırak", "happiness": 0, "people": 0, "money": 0, "science": 0, "soldier": 0, "result": "Durum değişmedi. Tartışmalar sürdü." },
+      { "id": "C", "text": "Ordu bütçesini kes", "happiness": 10, "people": 0, "money": 20, "science": 0, "soldier": -20, "result": "Halk mutlu ama askerler hoşnutsuz." }
+    ]
+  },
+  {
+    "id": 8,
+    "task": "Gençler işsiz.",
+    "options": [
+      { "id": "A", "text": "Yeni fabrikalar aç", "happiness": 20, "people": 10, "money": -40, "science": 0, "soldier": 0, "result": "İstihdam arttı, ekonomi canlandı." },
+      { "id": "B", "text": "Girişimcilik hibesi ver", "happiness": 10, "people": 0, "money": -20, "science": 10, "soldier": 0, "result": "Girişimcilik desteklendi. Yenilikçi çözümler doğdu." },
+      { "id": "C", "text": "Umursama", "happiness": -30, "people": 0, "money": 0, "science": 0, "soldier": 0, "result": "Gençler protesto etti. Toplumsal huzur bozuldu." }
+    ]
+  },
+  {
+    "id": 9,
+    "task": "Halk sosyal medya kısıtlaması istiyor.",
+    "options": [
+      { "id": "A", "text": "Sansür uygula", "happiness": -40, "people": 0, "money": 0, "science": -10, "soldier": 0, "result": "Özgürlükler kısıtlandı. Tepkiler büyüdü." },
+      { "id": "B", "text": "Kısıtlamayı reddet", "happiness": 10, "people": 0, "money": 0, "science": 0, "soldier": 0, "result": "Özgürlük korundu. Gençler destek verdi." },
+      { "id": "C", "text": "Gelişmiş denetim sistemi kur", "happiness": -10, "people": 0, "money": -10, "science": 5, "soldier": 0, "result": "Denge sağlandı ama maliyetli oldu." }
+    ]
+  },
+  {
+    "id": 10,
+    "task": "Ülkede enerji krizi başladı.",
+    "options": [
+      { "id": "A", "text": "Nükleer enerjiye geç", "happiness": -10, "people": 0, "money": -50, "science": 30, "soldier": 0, "result": "Enerji sağlandı ama halk korktu." },
+      { "id": "B", "text": "Elektrik kısıtlaması yap", "happiness": -50, "people": 0, "money": 0, "science": 0, "soldier": 0, "result": "Halk karanlıkta kaldı. Tepkiler büyüdü." },
+      { "id": "C", "text": "Yenilenebilir enerjiye yatırım yap", "happiness": 10, "people": 0, "money": -30, "science": 15, "soldier": 0, "result": "Gelecek için umut verici bir adım." }
+    ]
+  }
+]
