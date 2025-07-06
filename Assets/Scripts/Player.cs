@@ -52,6 +52,18 @@ public class Player : MonoBehaviour
     public GameObject greenLeader;
     public GameObject redLeader;
 
+    public int multipler = 1;
+    
+     int newPeople = 1;
+     int newMoney = 1;
+     int newScience = 1;
+     int newSolder = 1;
+
+    public TextMeshProUGUI newpeopleText;
+    public TextMeshProUGUI newmoneyText;
+    public TextMeshProUGUI newscienceText;
+    public TextMeshProUGUI newsolderText;
+
 
 
 
@@ -157,19 +169,19 @@ public class Player : MonoBehaviour
     void ProduceResources()
     {
         
-        int newPeople = areaCount*happiness*10;
+        newPeople = areaCount*happiness*10;
         people += newPeople;
 
   
-        int newMoney = areaCount*90;
+         newMoney = areaCount*90;
         money += newMoney;
 
     
-        int newScience = areaCount * 8;
+         newScience = areaCount * 8;
         science += newScience;
 
      
-        int newSolder = areaCount ;
+         newSolder = areaCount * multipler ;
         soldier += newSolder;
 
         UpdateUI();
@@ -182,6 +194,11 @@ public class Player : MonoBehaviour
         moneyText.text =money.ToString();
         scienceText.text =science.ToString();
         solderText.text = soldier.ToString();
+
+        newpeopleText.text = "+"+newPeople.ToString();
+        newmoneyText.text = "+" + newMoney.ToString();
+        newscienceText.text = "+" + newScience.ToString();
+        newsolderText.text = "+" + newSolder.ToString();
     }
 
 
@@ -192,6 +209,7 @@ public class Player : MonoBehaviour
         resultText.text = option.result;
 
         taskPanel.SetActive(false);
+        
 
         happinessText2.text = ((happiness * option.happiness) / 100).ToString();
         peopleText2.text = ((people * option.people) / 100).ToString();
